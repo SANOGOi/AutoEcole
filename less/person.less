@@ -1,0 +1,28 @@
+.person {
+	margin-top: 23px;
+	.image {
+		margin: 0 auto 20px;
+		position: relative;
+	}
+	.name {
+		margin-bottom: 8px;
+		line-height: 1.2em;
+		text-transform: uppercase;
+	}
+	.position {
+		margin-bottom: 16px;
+		padding: 0;
+		font-style: italic;
+		font-weight: normal;
+		text-transform: none;
+	}
+	.text {
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	.person:not(.last) {
+		margin-bottom: 25px;
+	}
+}

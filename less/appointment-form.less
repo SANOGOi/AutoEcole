@@ -1,0 +1,134 @@
+#appointmentForm.modal {
+	padding-left: 0 !important;
+	.modal-dialog {
+		margin: 0 auto;
+		width: 1170px;
+		@media (min-width: 992px) and (max-width: 1199px) {
+			width: 970px;
+		}
+		@media (max-width: 991px) {
+			width: 100%;
+		}
+		padding-left: 0;
+		padding-right: 0;
+		.modal-body {
+			padding: 0;
+		}
+		.modal-content {
+			background-color: #f7f7f7;
+			border-radius: 0;
+			border: 0;
+			@media (max-width: 991px) {
+				padding-left: 25px;
+				padding-right: 25px;
+			}
+		}
+		.modal-header {
+			height: 59px;
+			border: 0;
+			padding: 0;
+			@media (max-width: 1240px) {
+				margin-bottom: 35px;
+			}
+		}
+		.modal-header .close {
+			margin-top: 0;
+			position: absolute;
+			right: -70px;
+			top: 5px;
+			font-size: 58px;
+			text-shadow: inherit;
+			opacity: 1;
+			color: @custom-color;
+			@media (max-width: 1240px) {
+				left: 0;
+				right: 0;
+				top: 0;
+				background: #131313;
+				width: 100%;
+				text-align: left;
+				z-index: 0;
+				font-size: 24px;
+				line-height: 58px;
+				padding-left: 25px;
+			}
+			@media (max-width: 1240px) {
+				font-size: 20px;
+				line-height: 22px;
+				height: 42px;
+			}
+		}
+	}
+	a.appointment {
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 1;
+	}
+	.container-fluid {
+		padding: 0;
+		overflow-x: hidden;
+	}
+}
+
+#appointmentForm {
+	.form-group {
+		position: relative;
+	}
+	.form-horizontal {
+		padding: 0;
+	}
+	.form-horizontal .form-group {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.input-group .form-control {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	.input-group {
+		display: block;
+	}
+	.input-group-addon {
+		display: block;
+		position: absolute;
+		top: 1px;
+		right: 1px;
+		z-index: 10;
+		padding: 12px 15px;
+		margin: 0;
+		font-size: 18px;
+		line-height: 30px;
+		height: 52px;
+		width: 52px;
+		background: #fff;
+		border: 0;
+		border-radius: 0;
+		color: #989898;
+		.box-shadow (none);
+		&:before {
+			content: '';
+			position: absolute;
+			left: -5px;
+			top: 0;
+			height: 100%;
+			width: 10px;
+			background-color: #fff;
+		}
+	}
+	.datetimepicker {
+		min-width: 200px;
+	}
+	@media (max-width: 991px) {
+		.datetimepicker {
+			margin-left: -19px;
+		}
+	}
+}
+
+#appointmentForm.modal.fade,
+#appointmentForm.modal.fade .modal-dialog,
+#appointmentForm.modal.fade.in .modal-dialog {
+	opacity: 1;
+}

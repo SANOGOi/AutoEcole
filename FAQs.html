@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+    <head>
+        <!-- Basic Page Needs -->
+        <meta charset="UTF-8">
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <title>AutoMov - Car Repair, Auto Car Services HTML Template</title>
+
+        <meta name="author" content="themsflat.com">
+
+        <!-- Mobile Specific Metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <!-- Theme style -->
+        <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+        <link rel="stylesheet" type="text/css" href="stylesheet/colors/color1.css" id="colors">
+
+        <!-- Responsive -->
+        <link rel="stylesheet" type="text/css" href="stylesheet/responsive.css">
+ 
+    </head>
+    <body>
+        <div class="preloader">
+            <div class="load">
+                <div class="gear one">
+                    <svg id="blue" viewbox="0 0 100 100" fill="#fc1452">
+                        <path d="M97.6,55.7V44.3l-13.6-2.9c-0.8-3.3-2.1-6.4-3.9-9.3l7.6-11.7l-8-8L67.9,20c-2.9-1.7-6-3.1-9.3-3.9L55.7,2.4H44.3l-2.9,13.6      c-3.3,0.8-6.4,2.1-9.3,3.9l-11.7-7.6l-8,8L20,32.1c-1.7,2.9-3.1,6-3.9,9.3L2.4,44.3v11.4l13.6,2.9c0.8,3.3,2.1,6.4,3.9,9.3      l-7.6,11.7l8,8L32.1,80c2.9,1.7,6,3.1,9.3,3.9l2.9,13.6h11.4l2.9-13.6c3.3-0.8,6.4-2.1,9.3-3.9l11.7,7.6l8-8L80,67.9      c1.7-2.9,3.1-6,3.9-9.3L97.6,55.7z M50,65.6c-8.7,0-15.6-7-15.6-15.6s7-15.6,15.6-15.6s15.6,7,15.6,15.6S58.7,65.6,50,65.6z"></path>
+                    </svg>
+                </div>
+                <div class="gear two">
+                    <svg id="pink" viewbox="0 0 100 100" fill="#137bc0">
+                        <path d="M97.6,55.7V44.3l-13.6-2.9c-0.8-3.3-2.1-6.4-3.9-9.3l7.6-11.7l-8-8L67.9,20c-2.9-1.7-6-3.1-9.3-3.9L55.7,2.4H44.3l-2.9,13.6      c-3.3,0.8-6.4,2.1-9.3,3.9l-11.7-7.6l-8,8L20,32.1c-1.7,2.9-3.1,6-3.9,9.3L2.4,44.3v11.4l13.6,2.9c0.8,3.3,2.1,6.4,3.9,9.3      l-7.6,11.7l8,8L32.1,80c2.9,1.7,6,3.1,9.3,3.9l2.9,13.6h11.4l2.9-13.6c3.3-0.8,6.4-2.1,9.3-3.9l11.7,7.6l8-8L80,67.9      c1.7-2.9,3.1-6,3.9-9.3L97.6,55.7z M50,65.6c-8.7,0-15.6-7-15.6-15.6s7-15.6,15.6-15.6s15.6,7,15.6,15.6S58.7,65.6,50,65.6z"></path>
+                    </svg>
+                </div>
+                <div class="gear three">
+                    <svg id="yellow" viewbox="0 0 100 100" fill="#e8b006">
+                        <path d="M97.6,55.7V44.3l-13.6-2.9c-0.8-3.3-2.1-6.4-3.9-9.3l7.6-11.7l-8-8L67.9,20c-2.9-1.7-6-3.1-9.3-3.9L55.7,2.4H44.3l-2.9,13.6      c-3.3,0.8-6.4,2.1-9.3,3.9l-11.7-7.6l-8,8L20,32.1c-1.7,2.9-3.1,6-3.9,9.3L2.4,44.3v11.4l13.6,2.9c0.8,3.3,2.1,6.4,3.9,9.3      l-7.6,11.7l8,8L32.1,80c2.9,1.7,6,3.1,9.3,3.9l2.9,13.6h11.4l2.9-13.6c3.3-0.8,6.4-2.1,9.3-3.9l11.7,7.6l8-8L80,67.9      c1.7-2.9,3.1-6,3.9-9.3L97.6,55.7z M50,65.6c-8.7,0-15.6-7-15.6-15.6s7-15.6,15.6-15.6s15.6,7,15.6,15.6S58.7,65.6,50,65.6z"></path>
+                    </svg>
+                </div>
+                <div class="lil-circle"></div>
+                <svg class="blur-circle">
+                    <filter id="blur">
+                        <fegaussianblur in="SourceGraphic" stddeviation="13"></fegaussianblur>
+                    </filter>
+                    <circle cx="70" cy="70" r="66" fill="transparent" stroke="white" stroke-width="40" filter="url(#blur)"></circle>
+                </svg>
+            </div>
+        </div> <!-- /.preloaer -->
+
+        <div class="top style1 bg-f9f9f9 ">
+            <div class="container clearfix">
+                <div id="logo">
+                    <a href="#"><img src="images/logo2.png" alt="AutoMov"  width="175" height="54" data-retina="images/logo2-2x.png" data-width="175" data-height="54"></a>
+                </div> <!-- /#logo -->
+
+                <div class="flat-info style2 text-right">
+                    <ul>
+                        <li class="address"><a href="#">3015 Grand Ave, Grove, Merrick Way</a></li>
+                        <li class="website"><a href="#">www.autoservices.com</a></li>
+                        <li class="phone"><a href="#">+100 2521-888-39151</a></li>
+                    </ul>
+                </div> <!-- /.flat-info -->
+            </div> <!-- /.container -->
+        </div> <!-- /.top -->
+
+        <header id="header" class="header-v6 ">
+            <div class="header-wrap">
+                <div class="container container-header ">
+                    <div class="inner-header bg-137bc0 clearfix">
+                        <div class="nav-wrap ">
+                            <nav id="mainnav" class="mainnav header-v1">
+                                <ul class="menu">
+                                    <li >
+                                        <a href="#">Home</a>
+                                        <ul class="submenu">
+                                            <li><a href="index.html">Homepage 1</a></li>
+                                            <li><a href="index2.html">Homepage 2</a></li> 
+                                            <li><a href="index3.html">Homepage 3</a></li> 
+                                            <li><a href="index4.html">Homepage 4</a></li> 
+                                            <li><a href="index5.html">Homepage 5</a></li>  
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Services</a>
+                                        <ul class="submenu">
+                                            <li><a href="our-services.html"> Our Services</a></li>
+                                            <li><a href="our-services-fullwidth.html"> Our Services Fullwidth</a></li>
+                                            <li><a href="services-single.html"> Single services</a></li>
+                                        </ul>
+                                    </li>
+                                    <li >
+                                        <a href="#">Gallery</a>
+                                        <ul class="submenu">
+                                            <li><a href="gallery-single.html">Gallery Single</a></li>
+                                            <li><a href="our-gallery.html">Our Gallery</a></li> 
+                                        </ul>
+                                    </li>
+                                    <li  class="active">
+                                        <a href="#">Pages</a>
+                                        <ul class="submenu">
+                                            <li class="item-has-child"><a href="#">Header</a>
+                                                <ul class="submenu">
+                                                    <li><a href="head-search.html">Header Search</a></li>
+                                                    <li><a href="flyout-menu.html">Flyout Menu</a></li>
+                                                    <li><a href="mega-menu.html">Mega Menu</a></li>
+                                                    <li><a href="home-canvas-menu.html">Canvas Menu</a></li>
+                                                </ul>
+                                            </li>
+                                            <li  class="item-has-child"><a href="#">Company</a>
+                                                <ul class="submenu">
+                                                    <li><a href="about-company.html">About Company</a></li>
+                                                    <li><a href="company-history.html">Company History</a></li>
+                                                </ul>
+                                            </li>
+                                            <li  class="item-has-child"> <a href="#">Project</a>
+                                                <ul class="submenu">
+                                                    <li><a href="project-single.html">Project Single</a></li>
+                                                    <li><a href="our-project-v1.html">Project v1</a></li>
+                                                    <li><a href="our-project-v2.html">Project v2</a></li>
+                                                    <li><a href="our-project-v3.html">Project v3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li  class="item-has-child">
+                                                <a href="#">Services</a>
+                                                <ul class="submenu">
+                                                    <li><a href="our-services.html"> Our Services</a></li>
+                                                    <li><a href="our-services-fullwidth.html"> Our Services Fullwidth</a></li>
+                                                    <li><a href="services-single.html"> Single services</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="our-team.html">Our Team</a></li>
+                                            <li class="active"><a href="FAQs.html">FAQs</a></li>
+                                            <li><a href="404.html">Error 404</a></li>
+                                        </ul>
+                                    </li>
+                                    <li >
+                                        <a href="#">Blog</a>
+                                        <ul class="submenu">
+                                            <li><a href="blog-grid-3-columns-v1.html">Blog Grid 3 Columns V1</a></li>
+                                            <li><a href="blog-grid-3-columns-v2.html">Blog Grid 3 Columns V2</a></li>
+                                            <li><a href="blog-grid-sidebar.html">Blog Grid With Sidebar</a></li>
+                                            <li><a href="blog-list-v1.html">Blog List V1</a></li>
+                                            <li><a href="blog-list-v2.html">Blog List V2</a></li>
+                                            <li><a href="blog-single.html">Blog Single</a></li>
+                                        </ul><!-- /.submenu -->
+                                    </li>
+                                    <li><a href="book-calendar.html">Apppointment</a> </li>
+                                    <li>
+                                        <a href="#">Shop</a>
+                                        <ul class="submenu">
+                                            <li><a href="shop-grid-sidebar-v1.html">Shop Grid Sidebar V1</a></li>
+                                            <li><a href="shop-grid-sidebar-v2.html">Shop Grid Sidebar V2</a></li>
+                                            <li><a href="shop-detail.html">Shop Detail</a></li>
+                                            <li><a href="shop-detail-sidebar.html">Shop Detail Sidebar</a></li>
+                                        </ul><!-- /.submenu -->
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                        <ul class="submenu">
+                                            <li><a href="contact-us-v1.html">Contact Us V1</a></li>
+                                            <li><a href="contact-us-v2.html">Contact Us V2</a></li>
+                                        </ul><!-- /.submenu -->
+                                    </li>
+                                </ul>
+                            </nav><!-- /.mainnav -->
+                        </div> <!-- /.nav-wrap -->
+                        <div class="mobile-button">
+                            <span></span>
+                        </div>
+                        <div class="wrap-btn text-right">
+                            <a href="#" class="flat-button bg-appointment">Make appointment</a>
+                        </div> <!-- /.wrap-btn -->
+                    </div> <!-- /.inner-header -->
+                </div> <!-- /.container -->
+            </div>  <!-- /.header-wrap -->
+        </header> <!-- /#header -->
+
+        <section class="page-title  v3 clearfix parallax  parallax5">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="wrap-page-title">
+                    <div class="breakcrums text-center v2">
+                        <ul>
+                            <li><a href="#" class="hover-text">HOME</a></li>
+                            <li><a href="#" class="hover-text">PAGES</a></li>
+                            <li><a href="#" class="hover-text">FAQs</a></li>
+                        </ul>
+                    </div> <!-- /.breakcrums -->
+
+                    <div class="page-title-heading text-center v2">
+                        <h1><a href="#" class="hover-text">FAQs</a></h1>
+                    </div> <!-- /.page-title-heading -->
+                </div> <!-- /.wrap-page-title -->
+            </div> <!-- /.container -->
+        </section> <!-- /.page-title -->
+
+        <article class="content-wrap">
+            <div class="flat-spacer clearfix" data-desktop="99" data-mobile="99" data-smobile="99" ></div>
+            <div class="container clearfix">
+                <div class="sidebar-left">
+                    <div class="widget widget-categories v1">
+                        <ul>
+                            <li><a href="#">About Our Company</a></li>
+                            <li><a href="#">Awards & Recognition</a></li>
+                            <li><a href="#">Career Opportunities</a></li>
+                            <li><a href="#">Exclusive Offers</a></li>
+                            <li><a href="#">Maintenance Packages</a></li>
+                        </ul>
+                    </div> <!-- /.widget-categories -->
+                    <div class="widget widget-deal">
+                        <h2 class="title-heading">DEAL TODAY</h2>
+                        <div class="img">
+                            <img src="images/FAQs/men-deal.png" alt="AutoMov">
+                        </div>
+                        <div class="textbox">
+                            <h3 class="title">GET 10% OFF TODAY</h3>
+                            <p>A Completely Safe and Advanced Cleaning Solution for both Petrol and Diesel Engines</p>
+                            <div class="wrap-btn">
+                                <a href="#" class="flat-button gb-detail">DETAILS</a>
+                            </div>
+                        </div>
+                    </div> <!-- widget-deal -->
+
+                    <div class="widget-testimonials flat-border-bottom pd-bottom-30">
+                        <div class="flat-carousel-not-numb" data-auto="false" data-column="1" data-column2="1" data-column3="1" data-gap="1" data-dots="false" data-nav="false" data-loop="true">
+                            <div class="flat-testimonials  owl-carousel ">
+                                <div class="testimonial style1 v2">
+                                    <blockquote>
+                                        "I have taken several of the family cars here for the past several years and without exception the experiences have been outstanding. I would highly recommend this place to any one who wants great service, honest value, and really great people."
+                                    </blockquote>
+                                    <div class="customer-info">
+                                        <h5 class="name"><a href="#" class="hover-text">JOHN SMITH</a></h5>
+                                        <p class="position">Chief Director</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- /.sidebar-left -->
+
+                <div class="content-page-wrap faqs-wrap pd-left-60">
+                    <div class="flat-spacer clearfix" data-desktop="0" data-mobile="60" data-smobile="60" ></div>
+                    <div class="flat-question style2">
+                        <div class="flat-title v4">
+                            <h3 class="title">Frequently Ask Questions</h3>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                        <div class="flat-spacer clearfix" data-desktop="33" data-mobile="33" data-smobile="33" ></div>
+                        <div class="accordion">
+                            <div class="accordion-toggle">
+                                <div class="toggle-title active">
+                                    Do you repair all types of cars?
+                                </div>
+                                <div class="toggle-content" >
+                                    <p>
+                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                                    </p>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div><!-- /.accordion-toggle -->
+
+                            <div class="accordion-toggle">
+                                <div class="toggle-title ">
+                                    How can I find out about the maintenance schedule for my vehicle?
+                                </div>
+                                <div class="toggle-content" >
+                                    <p>
+                                        Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.
+                                    </p>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div><!-- /.accordion-toggle -->
+
+                            <div class="accordion-toggle">
+                                <div class="toggle-title">
+                                    How do I keep track of routine maintenance?
+                                </div>
+                                <div class="toggle-content" >
+                                    <p>
+                                        Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.
+                                    </p>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div><!-- /.accordion-toggle -->
+
+                            <div class="accordion-toggle">
+                                <div class="toggle-title">
+                                    How often should I contact you for an oil change?
+                                </div>
+                                <div class="toggle-content" >
+                                    <p>
+                                        Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.
+                                    </p>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div><!-- /.accordion-toggle -->
+
+                            <div class="accordion-toggle">
+                                <div class="toggle-title">
+                                    Does my warranty hold if I do not stick to the recommended schedule for activities?
+                                </div>
+                                <div class="toggle-content" >
+                                    <p>
+                                        Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.
+                                    </p>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div><!-- /.accordion-toggle -->
+
+                            <div class="accordion-toggle">
+                                <div class="toggle-title">
+                                    How often should I contact you for an oil change?
+                                </div>
+                                <div class="toggle-content" >
+                                    <p>
+                                        Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.
+                                    </p>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div><!-- /.accordion-toggle -->
+
+                            <div class="accordion-toggle">
+                                <div class="toggle-title">
+                                    How can I find out about the maintenance schedule for my vehicle?
+                                </div>
+                                <div class="toggle-content" >
+                                    <p>
+                                        Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.
+                                    </p>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div><!-- /.accordion-toggle -->
+                        </div> <!-- /.accordion -->
+                    </div> <!-- /.flat-question -->
+
+                    <div class="flat-search-form bg-f6f6f6">
+                        <form action="#" class="clearfix">
+                            <div class="wrap-input">
+                                <input type="search" name="search" placeholder="Search">
+                            </div>
+                            <div class="wrap-btn">
+                                <button type="submit" class="btn-effect btn-search">Search</button>
+                            </div>
+                        </form>
+                    </div> <!-- /flat-search-form -->
+
+                    <div class="flat-support ">
+                        <div class="flat-title v4">
+                            <h3 class="title">Support Services</h3>
+                        </div> 
+                        <div class="accordion">
+                            <div class="accordion-toggle">
+                                <div class="toggle-title active">
+                                    Should I consider using synthetic motor oil?
+                                </div>
+                                <div class="toggle-content" >
+                                    <p>
+                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+                                    </p>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div><!-- /.accordion-toggle -->
+
+                            <div class="accordion-toggle">
+                                <div class="toggle-title ">
+                                    What parts should be replaced at what intervals?
+                                </div>
+                                <div class="toggle-content" >
+                                    <p>
+                                        Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.
+                                    </p>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div><!-- /.accordion-toggle -->
+
+                            <div class="accordion-toggle">
+                                <div class="toggle-title">
+                                    How do I keep track of routine maintenance?
+                                </div>
+                                <div class="toggle-content" >
+                                    <p>
+                                        Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.
+                                    </p>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div><!-- /.accordion-toggle -->
+                        </div> <!-- /.accordion -->
+                    </div> <!-- /.flat-support -->
+                </div> <!-- /.faqs-wrap -->
+            </div> <!-- /.container -->
+            <div class="flat-spacer clearfix" data-desktop="60" data-mobile="60" data-smobile="60" ></div>
+        </article> <!-- /.content-wrap -->
+
+        <section class="flat-contact v1 clearfix">
+            <div class="container">
+                <div class="wrap-text">
+                    <h3 class="title"><a href="#">Have you question or need any help for work consulant?</a></h3>
+                </div>
+                <div class="wrap-btn text-right">
+                    <a href="#" class="flat-button btn-contact bg-contact">Contact us</a>
+                </div>
+            </div> <!-- /.container -->
+        </section> <!-- /.flat-contact -->
+
+        <footer id="footer" class=" style2 pd-bottom-100">
+            <div class="flat-spacer clearfix" data-desktop="100" data-mobile="60" data-smobile="60" ></div>
+            <div class="container">
+                <div class="flat-widget-ft fix-float-box">
+                    <div class="widget widget-about">
+                        <div id="logo-ft">
+                            <a href="#"><img src="images/logo-ft.png" alt="logo-ft"  width="183" height="55" data-retina="images/logo-ft-2x.png" data-width="183" data-height="55"></a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                        <h6><a href="#" class="hover-text">Our history</a></h6>
+                    </div> <!-- /.widget-about -->
+
+                    <div class="widget widget-links">
+                        <h4 class="widget-title">USEFUL LINKS </h4>
+                        <ul>
+                            <li><a href="#" class="hover-text">Home</a></li>
+                            <li><a href="#" class="hover-text">About</a></li>
+                            <li><a href="#" class="hover-text">Project</a></li>
+                            <li><a href="#" class="hover-text">Latest News</a></li>
+                            <li><a href="#" class="hover-text">Gallery</a></li>
+                        </ul>
+                    </div> <!-- /.widget-links -->
+
+                    <div class="widget widget-info">
+                        <h4 class="widget-title"> CONTACT INFO </h4>
+                        <div class="flat-iconbox style3">
+                            <div class="iconbox clearfix style3">
+                                <div class="iconbox-icon">
+                                    <span class="icon_pin_alt"></span>
+                                </div>
+                                <div class="iconbox-content">
+                                    <p><a href="#" class="hover-text">1379 Shoreline Parkway, 
+                                    United States</a></p>
+                                </div>
+                            </div> <!-- /.iconbox -->
+
+                            <div class="iconbox clearfix style3">
+                                <div class="iconbox-icon">
+                                    <span class="icon_mobile"></span>
+                                </div>
+                                <div class="iconbox-content">
+                                    <p><a href="#" class="hover-text">+100 2521-888-39151</a></p>
+                                    <p><a href="#" class="hover-text">+800 718-999-3939</a></p>
+                                </div>
+                            </div> <!-- /.iconbox -->
+
+                            <div class="iconbox clearfix style3">
+                                <div class="iconbox-icon">
+                                    <span class="icon_mail_alt"></span>
+                                </div>
+                                <div class="iconbox-content">
+                                    <p><a href="#" class="hover-text">contact@automov.com</a></p>
+                                    <p><a href="#" class="hover-text">automov@gmail.com</a></p>
+                                </div>
+                            </div> <!-- /.iconbox -->
+                        </div> <!-- /.flat-iconbox -->
+                    </div> <!-- /.widget-info -->
+
+                    <div class="widget widget-last-news">
+                        <h4 class="widget-title"> LATEST NEWS </h4>
+                        <ul class="list-last-news">
+                            <li class="  clearfix">
+                                <div class=" img">
+                                    <img src="images/last-news-1-ft.png" alt="last-news">
+                                    <div class="overlay"></div>
+                                </div>
+                                <div class="content">
+                                    <h6 class="heading"><a href="#" class="hover-text">Sustainable Construction</a></h6>
+                                    <p><a href="#" class="hover-text">August 08, 2018</a></p>
+                                </div>
+                            </li>   
+
+                            <li class="  clearfix">
+                                <div class=" img">
+                                    <img src="images/last-news-2-ft.png" alt="last-news">
+                                    <div class="overlay"></div>
+                                </div>
+                                <div class=" content">
+                                    <h6 class="heading"><a href="#" class="hover-text">Storefront Installations</a></h6>
+                                    <p><a href="#" class="hover-text">August 08, 2018</a></p>
+                                </div>
+                            </li> 
+                        </ul> <!-- /.list-last-news -->
+                    </div> <!-- /.widget-last-news -->
+                </div> <!-- /.widget -->
+                <div class="flat-spacer clearfix" data-desktop="82" data-mobile="60" data-smobile="60" ></div>
+                <div class="bottom style1 clearfix">
+                    <div class="flat-socails">
+                        <ul>
+                            <li><a href="#"><span class="social_facebook"></span></a></li>
+                            <li><a href="#"><span class="social_twitter"></span></a></li>
+                            <li><a href="#"><span class="social_pinterest"></span></a></li>
+                            <li><a href="#"><span class="social_googleplus"></span></a></li>
+                            <li><a href="#"><span class="fa fa-youtube"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="flat-copy-right">
+                       <p>© Automov - Design by @themesflat. All Rights Reserved.</p>
+                    </div>
+                </div> <!-- /.bottom -->
+            </div> <!-- /.container -->
+        </footer> <!-- /.footer -->
+
+        <!-- Javascript -->
+        <script src="javascript/jquery.min.js"></script>
+        <script src="javascript/plugins.js"></script>
+        <script src="javascript/owl.carousel.min.js"></script>
+        <script src="javascript/equalize.min.js"></script>
+        <script src="javascript/jquery.cookie.js"></script>
+        
+        <script src="javascript/main.js"></script>
+    </body>
+</html>

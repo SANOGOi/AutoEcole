@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+    <head>
+        <!-- Basic Page Needs -->
+        <meta charset="UTF-8">
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <title>AutoMov - Car Repair, Auto Car Services HTML Template</title>
+
+        <meta name="author" content="themsflat.com">
+
+        <!-- Mobile Specific Metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <!-- Theme style -->
+        <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+        <link rel="stylesheet" type="text/css" href="stylesheet/colors/color1.css" id="colors">
+        <link rel="stylesheet" type="text/css" href="stylesheet/responsive.css">
+    </head>
+    <body>
+        <div class="preloader">
+            <div class="load">
+                <div class="gear one">
+                    <svg id="blue" viewbox="0 0 100 100" fill="#fc1452">
+                        <path d="M97.6,55.7V44.3l-13.6-2.9c-0.8-3.3-2.1-6.4-3.9-9.3l7.6-11.7l-8-8L67.9,20c-2.9-1.7-6-3.1-9.3-3.9L55.7,2.4H44.3l-2.9,13.6      c-3.3,0.8-6.4,2.1-9.3,3.9l-11.7-7.6l-8,8L20,32.1c-1.7,2.9-3.1,6-3.9,9.3L2.4,44.3v11.4l13.6,2.9c0.8,3.3,2.1,6.4,3.9,9.3      l-7.6,11.7l8,8L32.1,80c2.9,1.7,6,3.1,9.3,3.9l2.9,13.6h11.4l2.9-13.6c3.3-0.8,6.4-2.1,9.3-3.9l11.7,7.6l8-8L80,67.9      c1.7-2.9,3.1-6,3.9-9.3L97.6,55.7z M50,65.6c-8.7,0-15.6-7-15.6-15.6s7-15.6,15.6-15.6s15.6,7,15.6,15.6S58.7,65.6,50,65.6z"></path>
+                    </svg>
+                </div>
+                <div class="gear two">
+                    <svg id="pink" viewbox="0 0 100 100" fill="#137bc0">
+                        <path d="M97.6,55.7V44.3l-13.6-2.9c-0.8-3.3-2.1-6.4-3.9-9.3l7.6-11.7l-8-8L67.9,20c-2.9-1.7-6-3.1-9.3-3.9L55.7,2.4H44.3l-2.9,13.6      c-3.3,0.8-6.4,2.1-9.3,3.9l-11.7-7.6l-8,8L20,32.1c-1.7,2.9-3.1,6-3.9,9.3L2.4,44.3v11.4l13.6,2.9c0.8,3.3,2.1,6.4,3.9,9.3      l-7.6,11.7l8,8L32.1,80c2.9,1.7,6,3.1,9.3,3.9l2.9,13.6h11.4l2.9-13.6c3.3-0.8,6.4-2.1,9.3-3.9l11.7,7.6l8-8L80,67.9      c1.7-2.9,3.1-6,3.9-9.3L97.6,55.7z M50,65.6c-8.7,0-15.6-7-15.6-15.6s7-15.6,15.6-15.6s15.6,7,15.6,15.6S58.7,65.6,50,65.6z"></path>
+                    </svg>
+                </div>
+                <div class="gear three">
+                    <svg id="yellow" viewbox="0 0 100 100" fill="#e8b006">
+                        <path d="M97.6,55.7V44.3l-13.6-2.9c-0.8-3.3-2.1-6.4-3.9-9.3l7.6-11.7l-8-8L67.9,20c-2.9-1.7-6-3.1-9.3-3.9L55.7,2.4H44.3l-2.9,13.6      c-3.3,0.8-6.4,2.1-9.3,3.9l-11.7-7.6l-8,8L20,32.1c-1.7,2.9-3.1,6-3.9,9.3L2.4,44.3v11.4l13.6,2.9c0.8,3.3,2.1,6.4,3.9,9.3      l-7.6,11.7l8,8L32.1,80c2.9,1.7,6,3.1,9.3,3.9l2.9,13.6h11.4l2.9-13.6c3.3-0.8,6.4-2.1,9.3-3.9l11.7,7.6l8-8L80,67.9      c1.7-2.9,3.1-6,3.9-9.3L97.6,55.7z M50,65.6c-8.7,0-15.6-7-15.6-15.6s7-15.6,15.6-15.6s15.6,7,15.6,15.6S58.7,65.6,50,65.6z"></path>
+                    </svg>
+                </div>
+                <div class="lil-circle"></div>
+                <svg class="blur-circle">
+                    <filter id="blur">
+                        <fegaussianblur in="SourceGraphic" stddeviation="13"></fegaussianblur>
+                    </filter>
+                    <circle cx="70" cy="70" r="66" fill="transparent" stroke="white" stroke-width="40" filter="url(#blur)"></circle>
+                </svg>
+            </div>
+        </div> <!-- /.preloaer -->
+        
+        <header id="header" class="header-v3">
+            <div class="flat-spacer clearfix" data-desktop="40" data-mobile="40" data-smobile="40"   ></div>
+            <div class="container clearfix">
+                <div id="logo">
+                    <a href="index.html"><img src="images/logo2.png" alt="logo"  width="175" height="54" data-retina="images/logo2-2x.png" data-width="175" data-height="54"></a>
+                </div> <!-- /#logo -->
+
+                <div class="mobile-button v2">
+                    <span></span>
+                </div>
+
+                <div class="nav-wrap text-right">
+                    <nav id="mainnav" class="mainnav header-v3">
+                        <ul class="menu">
+                            <li>
+                                <a href="index.html">HOME</a>
+                                <ul class="submenu">
+                                    <li><a href="index.html">HOME 1</a></li>
+                                    <li><a href="index2.html">HOME 2</a></li> 
+                                    <li><a href="index3.html">HOME 3</a></li> 
+                                    <li><a href="index4.html">HOME 4</a></li> 
+                                    <li><a href="index5.html">HOME 5</a></li>  
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">SERVICES</a>
+                                <ul class="submenu">
+                                    <li><a href="our-services.html"> OUR SERVICES</a></li>
+                                    <li><a href="our-services-fullwidth.html"> OUR SERVICES FULLWIDTH</a></li>
+                                    <li><a href="services-single.html"> SINGLE SERVICES</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">GALLERY</a>
+                                <ul class="submenu">
+                                    <li><a href="gallery-single.html">GALLERY SINGLE</a></li>
+                                    <li><a href="our-gallery.html">OUR GALLERY</a></li> 
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">PAGE</a>
+                                <ul class="submenu">
+                                    <li class="item-has-child"><a href="#">Header</a>
+                                        <ul class="submenu">
+                                            <li><a href="head-search.html">Header Search</a></li>
+                                            <li><a href="flyout-menu.html">Flyout Menu</a></li>
+                                            <li><a href="mega-menu.html">Mega Menu</a></li>
+                                            <li><a href="home-canvas-menu.html">Canvas Menu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li  class="item-has-child"><a href="#">Company</a>
+                                        <ul class="submenu">
+                                            <li><a href="about-company.html">About Company</a></li>
+                                            <li><a href="company-history.html">Company History</a></li>
+                                        </ul>
+                                    </li>
+                                    <li  class="item-has-child"> <a href="#">Project</a>
+                                        <ul class="submenu">
+                                            <li><a href="project-single.html">Project Single</a></li>
+                                            <li><a href="our-project-v1.html">Project v1</a></li>
+                                            <li><a href="our-project-v2.html">Project v2</a></li>
+                                            <li><a href="our-project-v3.html">Project v3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li  class="item-has-child">
+                                        <a href="#">Services</a>
+                                        <ul class="submenu">
+                                            <li><a href="our-services.html"> Our Services</a></li>
+                                            <li><a href="our-services-fullwidth.html"> Our Services Fullwidth</a></li>
+                                            <li><a href="services-single.html"> Single services</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="our-team.html">Our Team</a></li>
+                                    <li><a href="FAQs.html">FAQs</a></li>
+                                    <li><a href="404.html">Error 404</a></li>
+                                </ul>
+                            </li>
+                            <li class="active">
+                                <a href="#">BLOG</a>
+                                <ul class="submenu">
+                                    <li><a href="blog-grid-3-columns-v1.html">BLOG GRID 3 COLUMNS V1</a></li>
+                                    <li><a href="blog-grid-3-columns-v2.html">BLOG GRID 3 COLUMNS V2</a></li>
+                                    <li class="active"><a href="blog-grid-sidebar.html">BLOG GRID WITH SIDEBAR</a></li>
+                                    <li><a href="blog-list-v1.html">BLOG LIST V1</a></li>
+                                    <li><a href="blog-list-v2.html">BLOG LIST V2</a></li>
+                                    <li><a href="blog-single.html">BLOG SINGLE</a></li>
+                                </ul><!-- /.submenu -->
+                            </li>
+                            <li>
+                                <a href="#">APPOINTMENT</a>
+                            </li>
+                            <li>
+                                <a href="#">SHOP</a>
+                                <ul class="submenu">
+                                    <li><a href="shop-grid-sidebar-v1.html">SHOP GRID SIDEBAR V1</a></li>
+                                    <li><a href="shop-grid-sidebar-v2.html">Shop Grid Sidebar V2</a></li>
+                                    <li><a href="shop-detail.html">SHOP DETAIL</a></li>
+                                    <li><a href="shop-detail-sidebar.html">SHOP DETAIL SIDEBAR</a></li>
+                                </ul><!-- /.submenu -->
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                                <ul class="submenu">
+                                    <li><a href="contact-us-v1.html">Contact Us V1</a></li>
+                                    <li><a href="contact-us-v2.html">Contact Us V2</a></li>
+                                </ul><!-- /.submenu -->
+                            </li>
+                        </ul>
+                    </nav><!-- /.mainnav -->
+                </div>
+            </div> <!-- /.container -->
+            <div class="flat-spacer clearfix" data-desktop="36" data-mobile="36" data-smobile="36" ></div>
+        </header> <!-- /#header -->
+
+        <section class="page-title v1 clearfix parallax parallax7">
+            <div class="flat-spacer clearfix" data-desktop="70" data-mobile="52" data-smobile="52" ></div>
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="wrap-page-title clearfix">
+                    <div class="page-title-heading v1">
+                        <h1><a href="#" class="hover-text">BLOG GRID</a></h1>
+                    </div> <!-- /.page-title-heading -->
+
+                    <div class="breakcrums text-right v1">
+                        <ul>
+                            <li><a href="#" class="hover-text">HOME</a></li>
+                            <li><a href="#" class="hover-text">BLOG</a></li>
+                            <li><a href="#" class="hover-text">BLOG GRID WITH SIDEBAR</a></li>
+                        </ul>
+                    </div> <!-- /.breakcrums -->
+                </div> <!-- /.wrap-page-title -->
+            </div> <!-- /.container -->
+            <div class="flat-spacer clearfix" data-desktop="69" data-mobile="52" data-smobile="52" ></div>
+        </section> <!-- /.page-title -->
+
+        <section class="content-wrap">
+            <div class="flat-spacer clearfix" data-desktop="100" data-mobile="60" data-smobile="60" ></div>
+            <div class="container ">
+                <div class="main-blog-grid-with-sidebar clearfix">
+                    <div class="sidebar-right blog-grid">
+                        <div class="widget widget-search">
+                            <form action="#" class="search-form" method="get">
+                                <input type="search" name="search" class="search-text" title="Search ..." placeholder="Search">
+                                <button class="search-submit" type="submit" title="Search">Search</button>
+                            </form>
+                        </div> <!-- /.widget-search -->
+                        <div class="flat-spacer clearfix" data-desktop="52" data-mobile="52" data-smobile="52" ></div>
+                        <div class="widget widget-categories widget-links v3">
+                            <h5 class="widget-title">CATEGORIES </h5>
+                            <ul>
+                                <li><a href="#" class="hover-text">Fluids</a></li>
+                                <li><a href="#" class="hover-text">Diagnostic</a></li>
+                                <li><a href="#" class="hover-text">Filters</a></li>
+                                <li><a href="#" class="hover-text">Electrical</a></li>
+                                <li><a href="#" class="hover-text">Certified</a></li>
+                            </ul>
+                        </div> <!-- /.widget-categories -->
+                        <div class="flat-spacer clearfix" data-desktop="50" data-mobile="50" data-smobile="50" ></div>
+
+                        <div class="widget widget-recent-news">
+                            <h5 class="widget-title">RECENT NEWS</h5>
+                            <ul class="list-recent-news">
+                                <li class="  clearfix">
+                                    <div class="img">
+                                        <a href="#"><img src="images/blog/blog-grid-with-sidebar/recent-new-1.png" alt="recent-news"></a>
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <div class="content">
+                                        <h6 class="heading"><a href="#" class="hover-text">Your car’s fluids should be checked</a></h6>
+                                        <p><a href="#" class="hover-text">Jun 24, 2018</a></p>
+                                    </div>
+                                </li> 
+
+                                <li class="  clearfix">
+                                    <div class="img">
+                                        <a href="#"><img src="images/blog/blog-grid-with-sidebar/recent-new-1.png" alt="recent-news"></a>
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <div class="content">
+                                        <h6 class="heading"><a href="#" class="hover-text">Your car’s fluids should be checked</a></h6>
+                                        <p><a href="#" class="hover-text">Jun 24, 2018</a></p>
+                                    </div>
+                                </li> 
+
+                                <li class="  clearfix">
+                                    <div class="img">
+                                        <a href="#"><img src="images/blog/blog-grid-with-sidebar/recent-new-1.png" alt="recent-news"></a>
+                                        <div class="overlay"></div>
+                                    </div>
+                                    <div class="content">
+                                        <h6 class="heading"><a href="#" class="hover-text">Your car’s fluids should be checked</a></h6>
+                                        <p><a href="#" class="hover-text">Jun 24, 2018</a></p>
+                                    </div>
+                                </li> 
+                            </ul> <!-- /.list-recent-news -->
+                        </div> <!-- /.widget-recent-news -->
+                        
+                        <div class="widget widget-tags">
+                            <h5 class="widget-title">TAG CLOUDS</h5>
+                            <ul>
+                                <li><a href="#" class="btn-defect flat-button bg-tags">Warranties</a></li>
+                                <li><a href="#" class="btn-defect flat-button bg-action">Diagnostic</a></li>
+                                <li><a href="#" class="btn-defect flat-button bg-tags">Filters</a></li>
+                                <li><a href="#" class="btn-defect flat-button bg-tags">Certified</a></li>
+                                <li><a href="#" class="btn-defect flat-button bg-tags">Electrical</a></li>
+                                <li><a href="#" class="btn-defect flat-button bg-tags">Brakes</a></li>
+                            </ul>
+                        </div> <!-- /.widget-tags -->
+                    </div>
+                    <div class=" content-page-wrap pd-right-60">
+                        <div class="flat-spacer clearfix" data-desktop="0" data-mobile="60" data-smobile="60" ></div>
+                        <div class="flat-post clearfix">
+                            <div class="post one-of-one blog-grid-sidebar-v1">
+                                <div class="border-post">
+                                    <div class="container-post-img">
+                                        <div class="post-img">
+                                            <div class="overlay">
+                                                <a href="#"><span class="arrow_right hover-text"></span></a>
+                                            </div>
+                                            <img src="images/blog/blog-grid-with-sidebar/post-1.png" alt="AutoMov">
+                                        </div> <!-- /.post-img -->
+                                    </div> <!-- /.container-post-img -->
+
+                                    <div class="post-content text-center">
+                                        <h2><a href="#">Your car’s fluids should be checked</a></h2>
+                                        <div class="meta">
+                                            <ul>
+                                                <li class="user"><a href="#" class="hover-text">admin</a></li>
+                                                <li class="date"><a href="#" class="hover-text">Jun 24, 2018</a></li>
+                                            </ul>
+                                        </div>
+                                        <p>Whether it’s time for your next factory recommended maintenance visit, a routine oil change, new tires, or repair services on your brakes, muffler and exhaust</p>
+                                    </div>  <!-- /.post-content -->
+                                </div> <!-- /.border-post -->
+                            </div> <!-- /.post -->
+
+                            <div class="post one-of-two blog-grid-v1">
+                                <div class="border-post">
+                                    <div class="container-post-img">
+                                        <div class="post-img">
+                                            <div class="overlay">
+                                                <a href="#"><span class="arrow_right hover-text"></span></a>
+                                            </div>
+                                            <img src="images/blog/blog-grid-with-sidebar/post-2.png" alt="AutoMov">
+                                        </div> <!-- /.post-img -->
+
+                                        <div class="icon-post">
+                                            <span class=" icon_image"></span>
+                                        </div> <!-- /.icon-post -->
+                                    </div> <!-- /.container-post-img -->
+
+                                    <div class="post-content">
+                                        <h4><a href="#">Oil Change Special Offers</a></h4>
+                                        <p>Whether it’s time for your next factory recommended maintenance visit, a routine oil change, new tires, or repair services on your brakes, muffler and exhaust</p>
+                                        <div class="meta">
+                                            <ul>
+                                                <li class="user"><a href="#" class="hover-text">admin</a></li>
+                                                <li class="date"><a href="#" class="hover-text">Jun 24, 2018</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>    
+                                </div> <!-- /.border-post -->
+                            </div> <!-- /.post -->
+
+                            <div class="post one-of-two blog-grid-v1">
+                                <div class="border-post">
+                                    <div class="container-post-img">
+                                        <div class="post-img">
+                                            <div class="overlay">
+                                                <a href="#"><span class="arrow_right hover-text"></span></a>
+                                            </div>
+                                            <img src="images/blog/blog-grid-with-sidebar/post-3.png" alt="AutoMov">
+                                        </div> <!-- /.post-img -->
+
+                                        <div class="icon-post">
+                                            <span class=" icon_star_alt"></span>
+                                        </div> <!-- /.icon-post -->
+                                    </div> <!-- /.container-post-img -->
+
+                                    <div class="post-content">
+                                        <h4><a href="#">We have Moved to our new Garage</a></h4>
+                                        <p>Whether it’s time for your next factory recommended maintenance visit, a routine oil change, new tires, or repair services on your brakes, muffler and exhaust</p>
+                                        <div class="meta">
+                                            <ul>
+                                                <li class="user"><a href="#" class="hover-text">admin</a></li>
+                                                <li class="date"><a href="#" class="hover-text">Jun 24, 2018</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>    
+                                </div> <!-- /.border-post -->
+                            </div> <!-- /.post -->
+
+                            <div class="post one-of-two blog-grid-v1">
+                                <div class="border-post">
+                                    <div class="container-post-img">
+                                        <div class="post-img">
+                                            <div class="overlay">
+                                                <a href="#"><span class="arrow_right hover-text"></span></a>
+                                            </div>
+                                            <img src="images/blog/blog-grid-with-sidebar/post-4.png" alt="AutoMov">
+                                        </div> <!-- /.post-img -->
+
+                                        <div class="icon-post">
+                                            <span class="  icon_camera_alt"></span>
+                                        </div> <!-- /.icon-post -->
+                                    </div> <!-- /.container-post-img -->
+
+                                    <div class="post-content">
+                                        <h4><a href="#">Oil Change Special Offers</a></h4>
+                                        <p>Whether it’s time for your next factory recommended maintenance visit, a routine oil change, new tires, or repair services on your brakes, muffler and exhaust</p>
+                                        <div class="meta">
+                                            <ul>
+                                                <li class="user"><a href="#" class="hover-text">admin</a></li>
+                                                <li class="date"><a href="#" class="hover-text">Jun 24, 2018</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>    
+                                </div> <!-- /.border-post -->
+                            </div> <!-- /.post -->
+
+                            <div class="post one-of-two blog-grid-v1">
+                                <div class="border-post">
+                                    <div class="container-post-img">
+                                        <div class="post-img">
+                                            <div class="overlay">
+                                                <a href="#"><span class="arrow_right hover-text"></span></a>
+                                            </div>
+                                            <img src="images/blog/blog-grid-with-sidebar/post-5.png" alt="AutoMov">
+                                        </div> <!-- /.post-img -->
+
+                                        <div class="icon-post">
+                                            <span class="  icon_ribbon_alt"></span>
+                                        </div> <!-- /.icon-post -->
+                                    </div> <!-- /.container-post-img -->
+
+                                    <div class="post-content">
+                                        <h4><a href="#">We have Moved to our new Garage</a></h4>
+                                        <p>Whether it’s time for your next factory recommended maintenance visit, a routine oil change, new tires, or repair services on your brakes, muffler and exhaust</p>
+                                        <div class="meta">
+                                            <ul>
+                                                <li class="user"><a href="#" class="hover-text">admin</a></li>
+                                                <li class="date"><a href="#" class="hover-text">Jun 24, 2018</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>    
+                                </div> <!-- /.border-post -->
+                            </div> <!-- /.post -->
+                        </div> <!-- /.flat-post -->
+                        
+                        <div class="flat-spacer clearfix" data-desktop="10" data-mobile="10" data-smobile="10" ></div>
+
+                        <div class="flat-paginations v1 ">
+                            <ul class="paginations clearfix">
+                                <li class="prev"><a href="#" class="btn-defect flat-button bg-action">Previous post</a></li>
+                                <li  class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li class="next"><a href="#" class="btn-defect flat-button bg-action">Next post</a></li>
+                            </ul> <!-- /.paginations -->
+                        </div> <!-- /.flat-paginations -->
+                    </div> <!-- /.wrap-blog -->
+                </div> <!-- /.main-blog-grid-with-sidebar -->
+            </div> <!-- /.container -->
+            <div class="flat-spacer clearfix" data-desktop="100" data-mobile="60" data-smobile="60" ></div>
+        </section> <!-- /.content-wrap -->
+
+        <section class="flat-contact v1 clearfix">
+            <div class="container">
+                <div class="wrap-text">
+                    <h3 class="title"><a href="#">Have you question or need any help for work consulant?</a></h3>
+                </div>
+                <div class="wrap-btn text-right">
+                    <a href="#" class="flat-button btn-contact bg-contact">Contact us</a>
+                </div>
+            </div>
+        </section> <!-- /.flat-contact -->
+
+        <footer id="footer" class=" style2 pd-bottom-100">
+            <div class="flat-spacer clearfix" data-desktop="100" data-mobile="60" data-smobile="60" ></div>
+            <div class="container">
+                <div class="flat-widget-ft fix-float-box">
+                    <div class="widget widget-about">
+                        <div id="logo-ft">
+                            <a href="#"><img src="images/logo-ft.png" alt="logo-ft" width="183" height="55" data-retina="images/logo-ft-2x.png" data-width="183" data-height="55"></a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                        <h6><a href="#" class="hover-text">Our history</a></h6>
+                    </div> <!-- /.widget-about -->
+
+                    <div class="widget widget-links">
+                        <h4 class="widget-title">USEFUL LINKS </h4>
+                        <ul>
+                            <li><a href="#" class="hover-text">Home</a></li>
+                            <li><a href="#" class="hover-text">About</a></li>
+                            <li><a href="#" class="hover-text">Project</a></li>
+                            <li><a href="#" class="hover-text">Latest News</a></li>
+                            <li><a href="#" class="hover-text">Gallery</a></li>
+                        </ul>
+                    </div> <!-- /.widget-links -->
+
+                    <div class="widget widget-info">
+                        <h4 class="widget-title"> CONTACT INFO </h4>
+                        <div class="flat-iconbox style3">
+                            <div class="iconbox clearfix style3">
+                                <div class="iconbox-icon">
+                                    <span class="icon_pin_alt"></span>
+                                </div>
+                                <div class="iconbox-content">
+                                    <p><a href="#" class="hover-text">1379 Shoreline Parkway, 
+                                    United States</a></p>
+                                </div>
+                            </div> <!-- /.iconbox -->
+
+                            <div class="iconbox clearfix style3">
+                                <div class="iconbox-icon">
+                                    <span class="icon_mobile"></span>
+                                </div>
+                                <div class="iconbox-content">
+                                    <p><a href="#" class="hover-text">+100 2521-888-39151</a></p>
+                                    <p><a href="#" class="hover-text">+800 718-999-3939</a></p>
+                                </div>
+                            </div> <!-- /.iconbox -->
+
+                            <div class="iconbox clearfix style3">
+                                <div class="iconbox-icon">
+                                    <span class="icon_mail_alt"></span>
+                                </div>
+                                <div class="iconbox-content">
+                                    <p><a href="#" class="hover-text">contact@automov.com</a></p>
+                                    <p><a href="#" class="hover-text">automov@gmail.com</a></p>
+                                </div>
+                            </div> <!-- /.iconbox -->
+                        </div> <!-- /.flat-iconbox -->
+                    </div> <!-- /.widget-info -->
+
+                    <div class="widget widget-last-news">
+                        <h4 class="widget-title"> LATEST NEWS </h4>
+                        <ul class="list-last-news">
+                            <li class="  clearfix">
+                                <div class=" img">
+                                    <img src="images/last-news-1-ft.png" alt="last-news">
+                                    <div class="overlay"></div>
+                                </div>
+                                <div class="content">
+                                    <h6 class="heading"><a href="#" class="hover-text">Sustainable Construction</a></h6>
+                                    <p><a href="#" class="hover-text">August 08, 2018</a></p>
+                                </div>
+                            </li>   
+
+                            <li class="  clearfix">
+                                <div class=" img">
+                                    <img src="images/last-news-2-ft.png" alt="last-news">
+                                    <div class="overlay"></div>
+                                </div>
+                                <div class=" content">
+                                    <h6 class="heading"><a href="#" class="hover-text">Storefront Installations</a></h6>
+                                    <p><a href="#" class="hover-text">August 08, 2018</a></p>
+                                </div>
+                            </li> 
+                        </ul> <!-- /.list-last-news -->
+                    </div> <!-- /.widget-last-news -->
+                </div> <!-- /.widget -->
+                <div class="flat-spacer clearfix" data-desktop="82" data-mobile="60" data-smobile="60" ></div>
+                <div class="bottom style1 clearfix">
+                    <div class="flat-socails">
+                        <ul>
+                            <li><a href="#"><span class="social_facebook"></span></a></li>
+                            <li><a href="#"><span class="social_twitter"></span></a></li>
+                            <li><a href="#"><span class="social_pinterest"></span></a></li>
+                            <li><a href="#"><span class="social_googleplus"></span></a></li>
+                            <li><a href="#"><span class="fa fa-youtube"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="flat-copy-right">
+                       <p>© Automov - Design by @themesflat. All Rights Reserved.</p>
+                    </div>
+                </div> <!-- /.bottom -->
+            </div> <!-- /.container -->
+        </footer> <!-- /.footer -->
+
+        <span class="gotop">
+            <img src="images/goto-automov.png" alt="AutoMov">
+        </span> <!-- /.gotop -->
+
+        <!-- Javascript -->
+        <script src="javascript/jquery.min.js"></script>
+        <script src="javascript/plugins.js"></script>
+        <script src="javascript/equalize.min.js"></script>
+        <script src="javascript/jquery.cookie.js"></script>
+        
+        <script src="javascript/main.js"></script>
+    </body>
+</html>

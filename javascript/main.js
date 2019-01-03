@@ -311,7 +311,7 @@
                     pagination: true,
                     autoplay: auto,
                     autoplayTimeout: 5000,
-                    paginationNumbers: 2,
+                    paginationNumbers: 1,
                     loop: true,
                     responsive: {
                         0:{

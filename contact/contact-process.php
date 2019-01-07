@@ -1,6 +1,6 @@
 <?php
 
-	// define("WEBMASTER_EMAIL", 'themesflat@gmail.com');
+	
 	//$address = "example@themeforest.net";
 	$address = "hoangngocanh2495@gmail.com";
 
